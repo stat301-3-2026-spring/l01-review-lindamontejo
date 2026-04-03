@@ -48,10 +48,10 @@ Provide a brief outline/overview of the steps involved in a supervised machine l
 
 Supervised machine learing involves the following process
 
-- Exploratory data analysis 
-- Feature Engineering / data processing 
-- Model Tunning 
-- Model Assesment 
+- Gathering and exploring data analysis: This involves gathering data, coming up with a prediction question, and trying to understand the dataset.
+- Feature Engineering / Data processing: Here, the data may be transformed.
+- Model Tuning
+- Model Assessment 
 :::
 
 ### Question 2
@@ -61,7 +61,7 @@ Explain the difference between supervised and unsupervised learning.
 ::: {.callout-tip icon="false"}
 ## Solution
 
-In unsupervised learning there no target/outcome of interest, there may a structure we want to try to understand. However, supervised learning  
+In unsupervised learning there no target or outcome of interest. In this type of learning, there may a structure we want to try to understand. However, supervised learning does involve a known target. 
 
 :::
 
@@ -74,7 +74,7 @@ In general, we can classify a model by its purpose into 1 of the 3 categories be
 ::: {.callout-tip icon="false"}
 ## Solution
 
-A Descriptive model's main purpose involves describing characteristics of a dataset. Linear models, parameteric models 
+A Descriptive model's main purpose involves describing characteristics of a dataset. Descriptive models help undertand patterns and relationships. 
 
 :::
 
@@ -83,7 +83,7 @@ A Descriptive model's main purpose involves describing characteristics of a data
 ::: {.callout-tip icon="false"}
 ## Solution
 
-The main purpose of an inferential model is to test a hypothesis. paramteric models 
+The main purpose of an inferential model is to test a hypothesis regarding relationships in data.
 :::
 
 #### Predictive Models
@@ -91,7 +91,7 @@ The main purpose of an inferential model is to test a hypothesis. paramteric mod
 ::: {.callout-tip icon="false"}
 ## Solution
 
-A Predictive model is used to make predictions useful for new data.
+A Predictive model is used to make predictions useful for new data. Predictive models aim to accurately predict outcomes for new data. 
 :::
 
 ### Question 4 
@@ -105,7 +105,7 @@ What does it mean to be a mechanistic model?
 ::: {.callout-tip icon="false"}
 ## Solution
 
-A mechanistic model is a model which uses
+A mechanistic model is a model which uses an equation to ****finish 
 
 :::
 
@@ -116,7 +116,7 @@ What does it mean to be an empirically driven model?
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+An empirically driven model uses observed data patterns instead of ***finish. 
 
 :::
 
@@ -138,8 +138,7 @@ In general, is a mechanistic or empirically driven model easier to interpret? Ex
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
-
+Mechanistic models can be more easy to interpret because they use known relationships.
 :::
 
 #### Part (e)
@@ -149,7 +148,7 @@ How does mechanistic and empirically driven model terminology relate to the idea
 ::: {.callout-tip icon="false"}
 ## Solution
 
-An empirically driven model would be 
+An empirically driven model would be more flexible than a mechanistic model because it adapts to patterns in a dataset. 
 
 :::
 
@@ -160,7 +159,7 @@ Describe the bias-variance trade-off when considering the use of a mechanistic o
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+A mechanistic model can have a higher bias and lower variance. The opposite is true for an empirically driven model
 
 :::
 
@@ -171,7 +170,7 @@ Explain the difference between a regression and classification machine learning 
 ::: {.callout-tip icon="false"}
 ## Solution
 
-In machine leanring, regression problems the final predictions are in a quantitative results. Meanhwhile, for classification problems, 
+In machine learning, regression problems the final predictions are in a quantitative results. Meanwhile, for classification problems, 
 
 :::
 
@@ -182,7 +181,7 @@ When splitting the data, why is it useful to stratify by the outcome/target vari
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Stratifying by the outcome or target variable helps prevent sampling bias by making sure the training and testing data sets have the same distribution of the target variable. 
 
 :::
 
@@ -193,7 +192,7 @@ Briefly describe how v-fold cross validation with repeats is used to estimate te
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+V-fold cross validation with repeats splits the data and trains the model on v-1 folds. This creates more variability and provides a more reliable estimate. 
 
 :::
 
@@ -204,8 +203,7 @@ When might we use a bootstrap resampling procedure instead of v-fold cross valid
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
-
+Bootstrap resampling procedure can be used instead of v-fold cross validation to estimate test RMSE when a dataset is small.
 :::
 
 ### Question 9 
@@ -215,7 +213,7 @@ Briefly describe model tuning and why we use it.
 ::: {.callout-tip icon="false"}
 ## Solution
 
-Model tunning involves changing the hyperparameters of dif
+Model tunning involves changing the hyperparameters of different models to imporve their performance. The goal is to avoid under and over fitting. 
 
 :::
 
@@ -226,7 +224,7 @@ What are two common performance metrics when dealing with a regression ML proble
 ::: {.callout-tip icon="false"}
 ## Solution
 
-RMSE and r^2 
+Two common performance metrics when dealing with a regression ML problem **RMSE** and **r^2**.
 
 :::
 
@@ -235,7 +233,7 @@ What are two common performance metrics when dealing with a classification ML pr
 ::: {.callout-tip icon="false"}
 ## Solution
 
-ROC AUC and accuracy 
+Two common performance metrics when dealing with a classification ML problem **ROC AUC** and **accuracy**. 
 :::
 
 ### Question 11
@@ -249,8 +247,7 @@ A company with a subscription based service (for example Netflix, Disney+, New Y
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
-
+This is an inferential problem because it explore a relationship. Here, the goal is to see whether a high number of service calls can relate to a customer's likelihood of churn in the next month. 
 :::
 
 2. How likely is it that a customer will churn in the next month (leave the company/drop the service)?
@@ -258,7 +255,6 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
-
+This is a predictive problem where the goal is predict the probability of whether a customer will churn in the next month. 
 :::
 
