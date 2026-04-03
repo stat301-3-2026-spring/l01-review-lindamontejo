@@ -46,8 +46,12 @@ Provide a brief outline/overview of the steps involved in a supervised machine l
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Supervised machine learing involves the following process
 
+- Exploratory data analysis 
+- Feature Engineering / data processing 
+- Model Tunning 
+- Model Assesment 
 :::
 
 ### Question 2
@@ -57,7 +61,7 @@ Explain the difference between supervised and unsupervised learning.
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+In unsupervised learning there no target/outcome of interest, there may a structure we want to try to understand. However, supervised learning  
 
 :::
 
@@ -70,7 +74,7 @@ In general, we can classify a model by its purpose into 1 of the 3 categories be
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+A Descriptive model's main purpose involves describing characteristics of a dataset. Linear models, parameteric models 
 
 :::
 
@@ -79,8 +83,7 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
-
+The main purpose of an inferential model is to test a hypothesis. paramteric models 
 :::
 
 #### Predictive Models
@@ -88,8 +91,7 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
-
+A Predictive model is used to make predictions useful for new data.
 :::
 
 ### Question 4 
@@ -103,7 +105,7 @@ What does it mean to be a mechanistic model?
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+A mechanistic model is a model which uses
 
 :::
 
@@ -147,7 +149,7 @@ How does mechanistic and empirically driven model terminology relate to the idea
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+An empirically driven model would be 
 
 :::
 
@@ -169,7 +171,7 @@ Explain the difference between a regression and classification machine learning 
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+In machine leanring, regression problems the final predictions are in a quantitative results. Meanhwhile, for classification problems, 
 
 :::
 
@@ -213,7 +215,7 @@ Briefly describe model tuning and why we use it.
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Model tunning involves changing the hyperparameters of dif
 
 :::
 
