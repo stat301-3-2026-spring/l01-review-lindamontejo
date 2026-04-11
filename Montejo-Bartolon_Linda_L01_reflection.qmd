@@ -2,7 +2,7 @@
 title: "L01 Review"
 subtitle: "Data Science 3 with R (STAT 301-3)"
 author: "Linda Montejo-Bartolon"
-pagetitle: "L01 Linda Montejo-Bartolon"
+pagetitle: "Self Evaluation L01 Linda Montejo-Bartolon"
 date: today
 
 format:
@@ -36,8 +36,6 @@ The goal of this lab is to review machine learning/predictive modeling vocabular
 
 ## Questions
 
-When completing the following questions ensure your solutions are neatly formatted and clearly indicated. Consider including diagrams/images in some of your solutions, if it helps to make things easier to describe/discuss.
-
 ### Question 1
 
 Provide a brief outline/overview of the steps involved in a supervised machine learning process. Could provide this as a bulleted list. 
@@ -53,6 +51,31 @@ Supervised machine learing involves the following process
 - Model Assessment 
 :::
 
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+3
+
+## Explanation
+For this problem, I gave myself a 3 because I missed out on some steps and I wasn't clear when I grouped steps together. I grouped the data acquisition and exploring steps together but I did not mention data cleaning, nor the splitting process. I was too general.
+
+## Updated solution
+
+Supervised machine learing involves the following process: 
+
+- Gathering and exploring data analysis: Data collection, and data preparation and cleaning
+- Split the data
+- Setup resampling technique such as cross validation
+- Feature engineering/recipe building and model specifications
+- Model Tuning and comparison
+- Select the best model and corresponding hyperparameters
+- Fit the best model to the entire training dataset
+- Model Assessment 
+
+:::
+
 ### Question 2
 
 Explain the difference between supervised and unsupervised learning.
@@ -61,6 +84,17 @@ Explain the difference between supervised and unsupervised learning.
 ## Solution
 
 In unsupervised learning there no target or outcome of interest. In this type of learning, there may a structure we want to try to understand. However, supervised learning is task driven and does involve a known target. 
+
+:::
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+4
+
+## Explanation
+I wasn't very explicit with why supervised learning might be used. I missed explaining that it can be used to predict the outcome variable well on new, unseen data.
 
 :::
 
@@ -74,6 +108,8 @@ In general, we can classify a model by its purpose into 1 of the 3 categories be
 ## Solution
 
 A Descriptive model's main purpose involves describing characteristics of a dataset. Descriptive models help understand patterns and relationships. 
+:::
+
 
 :::
 
@@ -85,12 +121,26 @@ A Descriptive model's main purpose involves describing characteristics of a data
 The main purpose of an inferential model is to test a hypothesis regarding relationships in data. This model depends on underlying assumptions.  
 :::
 
+
 #### Predictive Models
 
 ::: {.callout-tip icon="false"}
 ## Solution
 
 A Predictive model is used to make accurate predictions useful for new data.
+:::
+
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+4 
+
+## Explanation
+
+The inferential response did not mention that it can be used to produce a decision. 
+
 :::
 
 ### Question 4 
@@ -161,6 +211,23 @@ A mechanistic model has a risk of underfitting because it has a higher bias and 
 
 :::
 
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+3
+
+
+## Explanation
+
+For Part A and B I did not include examples. For these responses I also relied on my notes to verfiy the accuracy of my original responses.
+## Updated solution
+
+Examples of a mechanistic model include linear and logistic regression. Examples of an empirically model include KNN, random forests, artificial neural networks.
+
+:::
+
 ### Question 5 
 
 Explain the difference between a regression and classification machine learning (ML) problems.
@@ -169,6 +236,19 @@ Explain the difference between a regression and classification machine learning 
 ## Solution
 
 In machine learning, regression problems have the final predictions in a quantitative format Meanwhile, for classification problems, the outcome variable is categorical.
+
+:::
+
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+5
+
+## Explanation
+
+The answer correctly identifies the difference between a regression and classification machine learning problems. 
 
 :::
 
@@ -183,6 +263,18 @@ Stratifying by the outcome or target variable helps prevent sampling bias by mak
 
 :::
 
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+4
+
+## Explanation
+For this problem, I did not explain what can happen if the outcome variable is not similarly distributed
+
+:::
+
 ### Question 7 
 
 Briefly describe how v-fold cross validation with repeats is used to estimate test RMSE. Also provide an explanation of why we use it. 
@@ -191,6 +283,22 @@ Briefly describe how v-fold cross validation with repeats is used to estimate te
 ## Solution
 
 V-fold cross validation with repeats splits the data into v subsets, trains the model on v-1 folds, and uses the remaining fold as the test set. This creates more variability and provides a more reliable estimate. The model calculates the RMSE on the fold that is used as the test set. It also uses the average of all RMSE values for the final estimated test RMSE.
+
+:::
+
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+2
+
+## Explanation
+
+This response was very broad and missed key reasons on why we use v-fold cross validation with repeats. 
+## Updated solution
+
+V-fold cross validation with repeats splits the data into v subsets, trains the model on v-1 folds, and uses the remaining fold as the test set. This is repeated r times. This creates more variability and provides a more reliable estimate. The model calculates the RMSE on the fold that is used as the test set. It also uses the average of all RMSE values for the final estimated test RMSE. The cross-validation procedure allows the model to be trained and evaluated on multiple subsets of the data, and helps to ensure that the estimate of the test RMSE is not overly influenced by the particular split of the data into folds that was used.
 
 :::
 
@@ -203,6 +311,18 @@ When might we use a bootstrap resampling procedure instead of v-fold cross valid
 
 Bootstrap resampling procedure can be used instead of v-fold cross validation to estimate test RMSE when a dataset is small or when assessing a model's stability or variance.
 :::
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+4
+
+## Explanation
+
+I could have been more explicit in my wording. Bootstrap resampling helps reduce the variance of the test RMSE.
+
+:::
 
 ### Question 9 
 
@@ -212,6 +332,21 @@ Briefly describe model tuning and why we use it.
 ## Solution
 
 Model tunning involves changing the hyper parameters of different models to improve their performance. The goal is to avoid under and over fitting. 
+
+:::
+### Self Evaluation
+ 
+::: {.callout-important icon="false"}
+
+## Score 
+2
+
+## Explanation
+My response was very generic and did not mention all the components of model tuning. Through this reponse, I should've also mentioned model tunning. 
+## Updated solution
+
+Model tunning involves changing the hyper parameters of different models to improve their performance. Each new hyperparameter value is a new model. By changing the hyperparameter values we are fitting new models or tuning a specific model type. The goal is to avoid under and over fitting. 
+
 
 :::
 
@@ -232,6 +367,20 @@ What are two common performance metrics when dealing with a classification ML pr
 ## Solution
 
 Two common performance metrics when dealing with a classification ML problem **ROC AUC** and **accuracy**. 
+:::
+
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+5
+
+## Explanation
+
+This questions identifies two performance metrics when dealing with a regression and classification ML problem.
+
+
 :::
 
 ### Question 11
@@ -256,3 +405,16 @@ This is an inferential problem because it explores a relationship. Here, the goa
 This is a predictive problem because it attempts to predict the probability of whether a customer will churn in the next month. 
 :::
 
+
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+4
+
+## Explanation
+
+The response correctly identifies each type of problem, but I did have to reference my notes to make sure.
+
+:::
